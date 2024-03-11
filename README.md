@@ -13,13 +13,13 @@ pip install -r requirements.txt
 
 ### Training
 
-#### Warmup Phase
+#### Continual Learning Phase
 ```bash
 cd warmup/main/
 python train.py
 ```
 
-#### Adversarial Teacher-Student Representation Learning
+#### Domain Generalization Phase
 ```bash
 cd main/main/
 python train.py
