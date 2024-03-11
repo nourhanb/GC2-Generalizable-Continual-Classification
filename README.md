@@ -26,6 +26,16 @@ pip install -r requirements.txt
 ```
 
 ### Datasets
+We evaluate GC2 on three classification tasks: skin lesion classification from dermatoscopy images (SKIN), peripheral blood cell classification from microscopic images (BLOOD), and colon tissue classification from H&E stained histopathology images (COLON).
+
+##### SKIN
+1. Download Fitzpatrick17k dataset by filling the form [here][1]
+
+2. Download Diverse Dermatology Images (DDI) from [here][2]
+
+##### BLOOD
+
+##### COLON
 
 
 ### Training
