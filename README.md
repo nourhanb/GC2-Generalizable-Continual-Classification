@@ -1,5 +1,4 @@
-# Paper Title 
-
+# GC2: Generalizable Continual Classification of Medical Images
 
 
 
@@ -38,3 +37,8 @@ cd main/main/
 python train.py
 ```
 
+#### OOD Visualization
+```bash
+cd main/main/
+python samples.ipynb
+```
