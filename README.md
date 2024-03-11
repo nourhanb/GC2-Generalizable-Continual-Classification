@@ -1,11 +1,10 @@
 # [IEEE TMI 2024] GC2: Generalizable Continual Classification of Medical Images
 Abstract— Deep learning models have achieved remarkable success in medical image classification. These models are typically trained once on the available annotated images and thus lack the ability of continually learning new tasks (i.e., new classes or data distributions) due to the problem of catastrophic forgetting. Recently, there has been more interest in designing continual learning methods to learn different tasks presented sequentially over time while preserving previously acquired knowledge. However, these methods focus mainly on preventing catastrophic forgetting and are tested under a closed-world assumption; i.e., assuming the test data is drawn from the same distribution as the training data. In this work, we advance the state-of-the-art in continual learning by proposing GC2 for medical image classification, which learns a sequence of tasks while simultaneously enhancing its out-of-distribution robustness. To alleviate forgetting, GC2 employs a gradual culpability-based network pruning to identify an optimal subnetwork for each task. To improve generalization, GC2 incorporates adversarial image augmentation and knowledge distillation approaches for learning generalized and robust representations for each subnetwork. Our extensive experiments on multiple benchmarks in a task-agnostic inference demonstrate that GC2 significantly outperforms baselines and other continual learning methods in reducing forgetting and enhancing generalization. 
 
-<center>
+<div style="text-align:center">
+    <img src="Screenshot%202024-03-10%20231631.jpg" alt="alt text">
+</div>
 
-![alt text](Screenshot%202024-03-10%20231631.jpg)
-
-</center>
 
 If you use this code in your research, please consider citing:
 
