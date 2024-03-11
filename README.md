@@ -44,8 +44,8 @@ Note: While most datasets are accessible online, access to certain datasets may 
 
 ### Training
 
-#### Benchmarks and Scenarios 
-This folder maintains a uniform API for data handling: mostly generating a stream of data from one or more datasets. It contains all the major CL benchmarks, including the ones used in our analysis: class-incremental learning, domain-incremental learning, and domain- and class-incremental learning.
+#### Tasks Generation and CL Scenarios 
+[benchmarks](main/benchmarks) maintains a uniform API for data handling: mostly generating a stream of data from one or more datasets. It contains all the major CL benchmarks, including the ones used in our analysis: class-incremental learning, domain-incremental learning, and domain- and class-incremental learning.
 
 #### Continual Learning Phase
 ```bash
