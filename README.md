@@ -6,17 +6,6 @@ Abstract— Deep learning models have achieved remarkable success in medical ima
 </p>
 
 
-
-If you use this code in your research, please consider citing:
-
-```text
-@inproceedings{bayasi2024gc2,
-  title={{GC2}: Generalizable Continual Classification of Medical Images},
-  author={Bayasi, Nourhan and Hamarneh, Ghassan and Garbi, Rafeef},
-  booktitle={{IEEE Transactions on Medical Imaging (TMI)}},
-  year={2024}}
-```
-
 ## Usage
 
 ### Setup
@@ -70,5 +59,15 @@ python train.py
 #### OOD Visualization
 ```bash
 cd main/main/
-python samples.ipynb
+jupyter notebook samples.ipynb
+```
+
+If you use this code in your research, please consider citing:
+
+```text
+@inproceedings{bayasi2024gc2,
+  title={{GC2}: Generalizable Continual Classification of Medical Images},
+  author={Bayasi, Nourhan and Hamarneh, Ghassan and Garbi, Rafeef},
+  booktitle={{IEEE Transactions on Medical Imaging (TMI)}},
+  year={2024}}
 ```
