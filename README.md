@@ -46,8 +46,11 @@ We evaluate GC2 on three classification tasks: skin lesion classification from d
 Note: While most datasets are accessible online, access to certain datasets may require payment.
 
 ##### BLOOD
+8. Download  PBS-HCB from [here](https://figshare.com/articles/figure/PBCI-DS_A_Benchmark_Peripheral_Blood_Cell_Image_Dataset_for_Object_Detection/24417049). 
 
 ##### COLON
+9. Download  NCT-CRC-HE from [here](https://www.kaggle.com/datasets/imrankhan77/nct-crc-he-100k
+). 
 
 
 ### Training
