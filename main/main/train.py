@@ -32,7 +32,7 @@ FT = torch.load(
 for parameter in FT.parameters():
     parameter.requires_grad = False
 models = {
-    "FT":FT, "FS":fcn_resnet18(), 
+    "FT":FT, "FS":fcn_resnet50(), 
     "GS":fcn_3x64_gctx(), 
 }
 
