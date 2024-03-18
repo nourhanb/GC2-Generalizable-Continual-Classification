@@ -25,7 +25,7 @@ train_loaders = {
         shuffle = False, 
     ), 
 }
-model = fcn_resnet18(
+model = fcn_resnet50(
     num_classes = 4, 
 )
 optimizer = optim.AdamW(
