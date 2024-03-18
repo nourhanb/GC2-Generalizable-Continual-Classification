@@ -17,7 +17,7 @@ class fcn_resnet50(nn.Module):
         if num_classes > 0:
             self.classifier = nn.Linear(
                 2048, num_classes
-            )  # ResNet-50's classifier output size is 2048
+            )  
         else:
             self.classifier = nn.Identity()
 
