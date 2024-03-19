@@ -64,6 +64,8 @@ python train.py
 cd main/main/
 jupyter notebook samples.ipynb
 ```
+### Acknowledgment 
+We thank the authors of [EWC](https://avalanche-api.continualai.org/en/v0.2.1/generated/avalanche.training.EWC.html), [LwF](https://avalanche-api.continualai.org/en/latest/generated/avalanche.training.LwF.html), [CPN](https://github.com/nourhanb/Continual-GEN), [SupSup](https://github.com/RAIVNLab/supsup), [PackNet](https://github.com/arunmallya/packnet), [Continual-GEN](https://github.com/nourhanb/Continual-GEN), [CP&S](https://github.com/adekhovich/continual_prune_and_select), [WSN](https://github.com/ihaeyong/WSN), [BoosterNet](https://github.com/nourhanb/BoosterNet), and [ACVC](https://github.com/ExplainableML/ACVC) for sharing their codes, which we utilized as competing methods in our analysis.
 
 ### Citation 
 If you use this code in your research, please consider citing:
