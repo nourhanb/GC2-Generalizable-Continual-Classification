@@ -74,6 +74,5 @@ If you use this code in your research, please consider citing:
 @inproceedings{bayasi2024gc2,
   title={{GC2}: Generalizable Continual Classification of Medical Images},
   author={Bayasi, Nourhan and Hamarneh, Ghassan and Garbi, Rafeef},
-  booktitle={{IEEE Transactions on Medical Imaging (TMI)}},
   year={2024}}
 ```
