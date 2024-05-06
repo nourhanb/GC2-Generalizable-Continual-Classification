@@ -71,8 +71,9 @@ We thank the authors of [EWC](https://avalanche-api.continualai.org/en/v0.2.1/ge
 If you use this code in your research, please consider citing:
 
 ```text
-@inproceedings{bayasi2024gc2,
+@article{bayasi2024gc2,
   title={{GC2}: Generalizable Continual Classification of Medical Images},
   author={Bayasi, Nourhan and Hamarneh, Ghassan and Garbi, Rafeef},
+  journal={IEEE Transactions on Medical Imaging (TMI)},
   year={2024}}
 ```
